@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.header{
+    height: 650px;
+    width: 100%;
+    background: url(images/header.png) no-repeat;
+    background-size: cover;
+}
+.header_text{
+    position: relative;
+    top: 200px;
+    left: 20%;
+}
+.header_h1{
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+}
+hr{
+    width: 150px;
+    margin: 5px 0px 0px 190px ;
+    float: left;
+}
+.paragraph{
+    width: 800px;
+    margin-left: -100px;
+    margin-right: ;
+    float: left;
+}
+p{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    
+}
+/* start_blog */
+.blog{
+    height: 600px;
+    width: 80%;
+    margin: 0px 20% 0px 10%;
+    float: left;
+    position: relative;
+}
+.blog_1{
+    height: 300px;
+    width: 100%;
+    /* position: absolute; */
+    display: flex;
+    z-index: 1;
+}
+img{
+    position: relative;
+    left: 480px;
+    width: 600px;
+    height: 400px;
+}
+.blog .blog_1 h1{
+    position: absolute;
+    top: 50px;
+    height: 70px;
+    width: 300px;
+    text-align: center;
+}
+.blog .blog_1 p{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    text-align: justify;
+    color: black;
+    margin: 120px 100px 0px -40px;
+    float: left;
+}
+/* .start_blog2 */
+.blog_2{
+    height: 100px;
+    /* height: 300px; */
+    width: 100%;
+    /* position: absolute; */
+    display: flex;
+    z-index: 1;
+}
+.blog .blog_2 img{
+    width:550px;
+    height: 400px;
+    float: left;
+    position: relative;
+    left: -177px;;
+    top: 100px;
+}
+.blog .blog_2 p{
+    width: 500px;
+    color: black;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+}
+
+.blog .blog_2 h1{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    height: 70px;
+    width: 300px;
+    text-align: center;
+}
+
+/* end_blog */
+
+.portfoli .text{
+    position: absolute;
+    left: 480px;
+    top: -60px;
+    font-size: 40px;
+    color: #41484b;
+    font-weight: 700;
+}
+.portfoli{
+    position: relative;
+    top: 500px;
+    left:-50px;
+    height: 800px;
+    width: 1300px;
+   
+}
+.portfoli img{
+    height: 300px;
+    width: 350px;
+    position: relative;
+    left: 10px;
+    margin: 15px 15px 0px 15px ;
+
+    float: left;
+}
+
+
+
+/* end_portfoli */
+
+.footer{
+    height: 250px;
+    width: 1500px;
+    background-color: #42484c;
+    position: relative;
+    top: 400px;
+    right: 150px;
+}
+.footer h1{   
+    color: #ffff;
+    position: relative;
+    left: 400px;
+    top: 60px;
+
+
+}
+.footer p{
+    position: relative;
+    top: 80px;
+    right: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.footer h2{
+    position: relative;
+    top: 100px;
+    left: 600px;
+    color: white;
+}
+
+/* end_footer */
+
+.icon{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    top: 450px;
+    right: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.facebook{
+    height: 50px;
+    width: 50px;
+    background-color: #41484b;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+
+}
+.icon i.fa-facebook{
+    font-size: 30px; 
+    color: white;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    left: 15px;
+
+}
+
+.youtube{
+    height: 50px;
+    width: 50px;
+    background-color: #41484b;
+    border-radius: 60px;
+    position: relative;
+    cursor: pointer;
+
+}
+.icon i.fa-youtube{
+    font-size: 30px; 
+    color: white;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
+
+.twiter{
+    height: 50px;
+    width: 50px;
+    background-color: #41484b;
+    border-radius: 60px;
+    position: relative;
+    cursor: pointer;
+}
+.icon i.fa-twitter{
+    font-size: 30px; 
+    color: white;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+ 
+
+}
+/* end_icon */
+.p{
+    position: relative;
+    top: 420px;
+    color: black;
+    font-size: 20px;
+}
+.link{
+    color: #23527C;
+    text-decoration: none;
+}
+.link:hover{
+    color: blue;
+    
+}
